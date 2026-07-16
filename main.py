@@ -212,9 +212,9 @@ def update_knowledge_from_web(query):
 # ===== AI FALLBACK =====
 def generate_ai_response(messages):
     models = [
-        "openai/gpt-oss-120b:free",
-        "meta-llama/llama-3-8b-instruct",
-        "microsoft/phi-3-mini-128k-instruct"
+        "openai/gpt-oss-20b:free",
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "cohere/north-mini-code:free"
     ]
 
     for model in models:

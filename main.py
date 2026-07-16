@@ -407,7 +407,7 @@ def generate_image(data: ImageGenerate):
             }
         
         # Cloudflare Workers AI endpoint - model goes in URL path
-        model = "@cf/stabilityai/stable-diffusion-xl-base-1.0"
+        model = "@cf/bytedance/stable-diffusion-xl-lightning"
         url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/{model}"
         
         response = requests.post(

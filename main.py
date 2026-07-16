@@ -212,8 +212,8 @@ def update_knowledge_from_web(query):
 # ===== AI FALLBACK =====
 def generate_ai_response(messages):
     models = [
-        "nvidia/nemotron-3-ultra-550b-a55b:free",
         "openai/gpt-oss-20b:free",
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
         "cohere/north-mini-code:free"
     ]
 
